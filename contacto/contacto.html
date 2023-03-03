@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\css\contacto.css" /> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <title>Formulario</title>
+</head>
+
+
+<body>
+   <form class="flex-container" method="get">
+    <div class="container" method="get" >
+        <h1>Register<ion-icon name="person-add-outline"></ion-icon></h1><br>
+        <p>Rellena los campos para crear una cuenta.</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+        <label for="psw"><b>Contraseña</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repetir Contraseña</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+        <p>Creando la cuneta aceptas los <a href="#">Terminos de Servicio y Privacidad</a>.</p>
+
+        <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+    <div class="container-signin">
+        <p>Ya tienes una cuenta? <a href="#">Sign in</a>.</p>
+    </div>
+    </form>
+</div>
+</body>
+
+</html>

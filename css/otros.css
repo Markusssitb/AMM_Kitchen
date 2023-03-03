@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:ital,wght@0,600;1,500&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Slab:wght@100;200&family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url("../imagenes/esta\ si.png");
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: transparent;
+
+}
+
+nav {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    transition: all 0, 5s ease;
+    position: sticky;
+    top: 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.menu {
+    display: flex;
+
+
+}
+
+.menu li {
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li a {
+    color: black;
+
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 200ms ease;
+}
+
+.menu li a:hover {
+    padding: 5px;
+    background-color: #7ABA96;
+    color: white;
+    border-radius: 15px;
+
+
+}
+map{
+    outline: 2px solid blue;
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+
+
+.content{
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+   
+    
+   
+
+}
+
+.content h2{
+    margin: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+
+}

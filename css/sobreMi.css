@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background: url("../imagenes/esta\ si.png");
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+nav {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    transition: all 0, 5s ease;
+    position: sticky;
+    top: 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.menu {
+    display: flex;
+
+
+}
+
+.menu li {
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li a {
+    color: black;
+
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 200ms ease;
+}
+
+.menu li a:hover {
+    padding: 5px;
+    background-color: #7ABA96;
+    color: white;
+    border-radius: 15px;
+
+
+
+}
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .contenedor-imagenes img {
+    flex: 1;
+ }
+ .contenedor-imagenes img {
+    margin-right: 10px;
+    width: 50px;
+ }
+ .contenedor-imagenes {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 800px;
+   margin: 0 auto;
+   margin-bottom: 200px;
+}
+.titulo {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 90px;
+ }

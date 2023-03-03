@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../imagenes/fondoblurcontacto.png");
+    margin: 40px;
+   
+}
+
+
+.flex-container{
+    padding: 40px;
+    background: linear-gradient(135deg, rgb(108, 253, 120), #04AA6D);
+    border-radius: 25px;
+    
+}
+.container {
+    padding: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin:5px 0 22px 0;
+    display: flex;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px ;
+    margin: 8px ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+  }
+
+  .registerbtn:hover {
+    opacity: 10;
+  }
+  .container-signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  ion-icon{
+      margin-left: 6px;
+      margin-top: 7px;
+      position: absolute;
+      font-size: 0.8em;
+      color: rgb(109, 226, 55);
+  }
